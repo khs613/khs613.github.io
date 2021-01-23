@@ -1,26 +1,23 @@
-{% if page.title %}
-{% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
-{% else %}
-{% capture title %}{{ site.title }}{% endcapture %}
-{% endif %}
-
 <head>
-  <title>{{ title }}</title>
-  {% include google_analytics.html %}
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="{{ site.user.name }}">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" media="all">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}" />
+  {% seo %}
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
-  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+
+  <!-- RSS -->
+  {% feed_meta %}
+
+  <!-- Google Analytics-->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
