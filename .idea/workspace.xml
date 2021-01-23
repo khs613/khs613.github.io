@@ -47,6 +47,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/res" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,6 +78,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="554" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611379923130">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="554" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.977/0.23.1680.1027@0.23.1680.1027" timestamp="1611379923130" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1611366747541">
       <screen x="0" y="23" width="1680" height="953" />
     </state>
@@ -80,5 +90,9 @@
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
     <state x="2423" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1611373629154" />
+    <state x="2332" y="266" width="615" height="490" key="find.popup" timestamp="1611376361958">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2332" y="266" width="615" height="490" key="find.popup/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1611376361958" />
   </component>
 </project>
