@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "KHSO.O"
   avatar           : "/assets/res/bob-minions.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부하려고 노력하는 개발자입니다. <br> 꾸준히 나아가는 개발자가 되도록 힘써보겠습니다."
+  bio              : "공부하려고 노력하는 개발자입니다."
   location         : "Republic of Korea"
   email            : "kimhyesoo123@naver.com"
   links:
