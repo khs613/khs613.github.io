@@ -24,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c470cfe-4a0d-49f4-a255-69c45c0f31a6" name="Default Changelist" comment="" />
+    <list default="true" id="3c470cfe-4a0d-49f4-a255-69c45c0f31a6" name="Default Changelist" comment="navigation 변경" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +64,35 @@
       <option name="presentableId" value="Default" />
       <updated>1611365061207</updated>
     </task>
+    <task id="LOCAL-00001" summary="navigation 변경">
+      <created>1611405755826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611405755826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="navigation 변경">
+      <created>1611405789548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611405789548</updated>
+    </task>
+    <task id="LOCAL-00003" summary="navigation 변경">
+      <created>1611406022973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611406022973</updated>
+    </task>
+    <task id="LOCAL-00004" summary="navigation 변경">
+      <created>1611406036190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611406036190</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +105,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="카테고리 변경" />
+    <MESSAGE value="navigation 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="554" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611379923130">
