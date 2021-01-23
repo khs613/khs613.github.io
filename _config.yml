@@ -1,6 +1,6 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          Hyesoo's 개발 일기
+description:    "개발자로 일하면서 끄적이는 개발 노트 :)"
 baseurl:        ""
 url:            "https://khs613.github.io"
 
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Hyesoo Kim
+  url:          https://khs613.github.io
+  email:        kimhyesoo123@naver.com
 
 # Build settings
 markdown:       kramdown
