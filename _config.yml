@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "김혜수"
+  name             : "KHSO.O"
   avatar           : "/assets/res/bob-minions.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부하려고 노력하는 개발자입니다. <br> 꾸준히 나아가는 개발자가 되도록 힘써보겠습니다."
   location         : "Republic of Korea"
@@ -116,7 +116,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://www.instagram.com/khso.o/"
 
 # Site Footer
 footer:
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      # url: "https://github.com/khs613/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      # url: "https://www.instagram.com/khso.o/"
 
 
 # Reading Files

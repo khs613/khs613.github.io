@@ -24,9 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c470cfe-4a0d-49f4-a255-69c45c0f31a6" name="Default Changelist" comment="페이지 변경">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-01-23-first-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-23-나의-첫-블로그.md" afterDir="false" />
+    <list default="true" id="3c470cfe-4a0d-49f4-a255-69c45c0f31a6" name="Default Changelist" comment="첫 포스팅">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611407136321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="첫 포스팅">
+      <created>1611410191020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611410191020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +132,8 @@
     <MESSAGE value="카테고리 변경" />
     <MESSAGE value="navigation 변경" />
     <MESSAGE value="페이지 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="페이지 변경" />
+    <MESSAGE value="첫 포스팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="첫 포스팅" />
   </component>
   <component name="WindowStateProjectService">
     <state x="554" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611406796025">
@@ -148,9 +155,10 @@
     <state x="571" y="260" width="590" height="490" key="find.popup/1680.23.1920.1057/0.23.1680.953@0.23.1680.953" timestamp="1611406710786" />
     <state x="571" y="278" width="590" height="516" key="find.popup/1680.23.1920.977/0.23.1680.1027@0.23.1680.1027" timestamp="1611381237079" />
     <state x="2332" y="266" width="615" height="490" key="find.popup/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1611381207546" />
-    <state x="890" y="270" width="670" height="676" key="search.everywhere.popup" timestamp="1611404447473">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state x="890" y="271" width="670" height="678" key="search.everywhere.popup" timestamp="1611410330240">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="890" y="270" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.953@0.23.1680.953" timestamp="1611404447473" />
+    <state x="890" y="271" width="670" height="678" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.955@0.23.1680.955" timestamp="1611410330240" />
   </component>
 </project>
