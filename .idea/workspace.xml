@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c470cfe-4a0d-49f4-a255-69c45c0f31a6" name="Default Changelist" comment="첫 포스팅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-01-23-나의-첫-블로그.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-23-나의-첫-블로그.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
