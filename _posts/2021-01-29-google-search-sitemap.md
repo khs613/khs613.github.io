@@ -15,7 +15,7 @@ toc_sticky: true
 
 ##### sitemap.xml 생성  
 [sitemap](https://developers.google.com/search/docs/advanced/sitemaps/overview?hl=ko)은 사이트에 있는 페이지와 각종 파일들의 관계에 관한 정보를 제공하는 파일이다. sitemap을 구글에 등록해두면, 구글 검색엔진은 이 파일을 읽고 크롤링한다.  
- - _config.xml 파일에 url 속성에 내 블로그 url 이 들어가 있는지 확인
+ - _config.xml 파일에 url 속성에 내 블로그 url 이 들어가 있는지 확인  
  ( url : "https://khs613.github.io" )
  - sitemap.xml 파일을 github.io root 경로에 생성한다.  
  root 경로는 _config.xml 파일이 있는 폴더이다.  
@@ -52,7 +52,7 @@ toc_sticky: true
    {% endfor %}
  </urlset>
  ```
-
+&nbsp;  
 - github에 업로드 후 `blog주소/sitemap.xml` 로 접속해서 아래와 같이 정상적으로 나와야 한다.  
 ![sitemap](/assets/img/post/2021-01-29-1/img_2.png)  
 
@@ -96,7 +96,7 @@ Google Search Console 에 블로그 사이트를 등록해서 구글 웹 크롤�
 ![sitemap](/assets/img/post/2021-01-29-1/img_6.png)  
 &nbsp;  
 
-#### 구글에서 사이트 검색  
+###### 구글에서 사이트 검색  
 모든 설정이 끝났으면 실제로 구글에 검색해보자. 제출하고 곧바로 반영이 안되고 1-2시간 혹은 며칠 걸리는 경우도 있는 것 같다. 이후에 확인해 보도록!  
 
 &nbsp;  
