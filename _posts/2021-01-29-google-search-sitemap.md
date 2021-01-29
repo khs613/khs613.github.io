@@ -97,11 +97,10 @@ Google Search Console 에 블로그 사이트를 등록해서 구글 웹 크롤�
 &nbsp;  
 
 #### 구글에서 사이트 검색  
-모든 설정이 끝났으면 실제로 구글에 검색해보자. 제출하고 곧바로는 반영이 안되고 1-2시간 혹은 며칠 걸리는 경우도 있는 것 같다. 이후에 확인해 보도록!  
+모든 설정이 끝났으면 실제로 구글에 검색해보자. 제출하고 곧바로 반영이 안되고 1-2시간 혹은 며칠 걸리는 경우도 있는 것 같다. 이후에 확인해 보도록!  
 
 &nbsp;  
 &nbsp;  
 [참고]  
-<http://jinyongjeong.github.io/2017/01/13/blog_make_searched/>
-<https://yammong.github.io/blog/Githubio%EA%B5%AC%EA%B8%80%EA%B2%80%EC%83%89%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0>
-<https://wayhome25.github.io/etc/2017/02/20/google-search-sitemap-jekyll/>
+<http://jinyongjeong.github.io/2017/01/13/blog_make_searched/>  
+<https://wayhome25.github.io/etc/2017/02/20/google-search-sitemap-jekyll/>  
