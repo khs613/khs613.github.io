@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### 깃허브 블로그 구글 검새 노출시키기  
-깃허브 블로그(Github io)의 경우 검색엔진에 노출되지 않아 검색이 가능하도록 등록해줘야 한다. google, naver, daum 포털 사이트에 등록할 수 있는데, 우선 google 등록을 해보겠다.  
+#### 깃허브 블로그 구글 검색 노출시키기  
+깃허브 블로그(Github.io)의 경우 검색엔진에 노출되지 않아 검색이 가능하도록 등록해줘야 한다. google, naver, daum 포털 사이트에 등록할 수 있는데, 우선 google 등록을 해보겠다.  
 &nbsp;  
 
 ##### sitemap.xml 생성  
@@ -21,7 +21,7 @@ toc_sticky: true
  root 경로는 _config.xml 파일이 있는 폴더이다.  
  - sitemap.xml 작성  
 
- ```
+ ``` text
  ---
  layout: null
  ---
@@ -62,7 +62,7 @@ toc_sticky: true
 root 경로는 _config.xml 파일이 있는 폴더이다.  
 - robots.xml 작성  
 
-```
+``` text
 User-agent: *
 Allow: /
 Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
