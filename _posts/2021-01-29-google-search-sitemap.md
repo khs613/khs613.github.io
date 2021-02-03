@@ -21,8 +21,8 @@ toc_sticky: true
  root 경로는 _config.xml 파일이 있는 폴더이다.  
  - sitemap.xml 작성  
 
- ``` text
- ---
+```
+---
  layout: null
  ---
  <?xml version="1.0" encoding="UTF-8"?>
@@ -51,22 +51,29 @@ toc_sticky: true
      </url>
    {% endfor %}
  </urlset>
- ```
-&nbsp;  
+```
+
+
+
+&nbsp;
+
 - github에 업로드 후 `blog주소/sitemap.xml` 로 접속해서 아래와 같이 정상적으로 나와야 한다.  
 ![sitemap](/assets/img/post/2021-01-29-1/img_2.png)  
 
 ##### robots.txt 생성
 [robots.txt](https://developers.google.com/search/docs/advanced/robots/intro?hl=ko) 파일은 크롤러가 사이트에 요청할 수 있는 페이지 또는 요청할 수 없는 페이지를 알려 줄 수 있다.
 - robots.xml 파일을 github.io root 경로에 생성한다.  
-root 경로는 _config.xml 파일이 있는 폴더이다.  
+  root 경로는 _config.xml 파일이 있는 폴더이다.  
+
 - robots.xml 작성  
 
-``` text
-User-agent: *
-Allow: /
-Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
-```
+  ```
+  User-agent: *
+  Allow: /
+  Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
+  ```
+
+  
 
 - 작성한 robots.txt 파일 github 업로드  
 
