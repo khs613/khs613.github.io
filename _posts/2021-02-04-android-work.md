@@ -35,7 +35,7 @@ adb install -t *.apk
 ```
 android.ingected.testOnly=false
 ```
-이렇게 설정하고 빌드하면 일반적인 apk가 생성되고, `t` 옵션 없이 설치할 수 있다.  
+이렇게 설정하고 빌드하면 일반적인 apk가 생성되고, `-t` 옵션 없이 설치할 수 있다.  
 
 &nbsp;  
 &nbsp;  
