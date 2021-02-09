@@ -64,10 +64,10 @@ layout: null
 
 - robots.xml 작성  
 
-      User-agent: *  
-      Allow: /  
-      Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}  
-      {: .notice}
+User-agent: *  
+Allow: /  
+Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}  
+{: .notice}
 
 
 
