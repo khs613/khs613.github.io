@@ -21,6 +21,7 @@ toc_sticky: true
  root 경로는 _config.xml 파일이 있는 폴더이다.  
  - sitemap.xml 작성  
 
+``` txt
 ---
  layout: null
  ---
@@ -50,6 +51,7 @@ toc_sticky: true
      </url>
    {% endfor %}
  </urlset>
+ ```
 {: .notice}
 
 
@@ -70,6 +72,7 @@ toc_sticky: true
   Allow: /
   Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
   ```
+  {: .notice}
 
 
 
