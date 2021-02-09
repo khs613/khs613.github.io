@@ -20,39 +20,7 @@ toc_sticky: true
  - sitemap.xml 파일을 github.io root 경로에 생성한다.  
  root 경로는 _config.xml 파일이 있는 폴더이다.  
  - sitemap.xml 작성  
----  
-layout: null  
----  
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   {% for post in site.posts %}
-     <url>
-       <loc>{{ site.url }}{{ post.url }}</loc>
-       {% if post.lastmod == null %}
-         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-       {% else %}
-         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-       {% endif %}
-
-       {% if post.sitemap.changefreq == null %}
-         <changefreq>weekly</changefreq>
-       {% else %}
-         <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-       {% endif %}
-
-       {% if post.sitemap.priority == null %}
-           <priority>0.5</priority>
-       {% else %}
-         <priority>{{ post.sitemap.priority }}</priority>
-       {% endif %}
-
-     </url>
-   {% endfor %}
- </urlset>
-{: .notice}
-
-
-&nbsp;
+ ![sitemap 파일 링크](https://github.com/khs613/khs613.github.io/blob/master/sitemap.xml) 내용 복사해서 붙여넣자  
 
 - github에 업로드 후 `blog주소/sitemap.xml` 로 접속해서 아래와 같이 정상적으로 나와야 한다.  
 ![sitemap](/assets/img/post/2021-01-29-1/img_2.png)  
@@ -63,14 +31,7 @@ layout: null
   root 경로는 _config.xml 파일이 있는 폴더이다.  
 
 - robots.xml 작성  
-
-User-agent: *  
-Allow: /  
-Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}  
-{: .notice}
-
-
-
+![rebots 파일 링크](https://github.com/khs613/khs613.github.io/blob/master/robots.txt) 내용 복사해서 붙여넣기  
 - 작성한 robots.txt 파일 github 업로드  
 
 
