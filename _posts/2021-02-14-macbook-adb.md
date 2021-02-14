@@ -22,27 +22,27 @@ adb는 Android SDK 플랫폼 도구 패키지에 포함되어 있다. 이 패키
 
 ##### ADB 환경변수 설정  
 매번 SDK가 설치되어 있는 경로로 찾아가서 ADB를 사용하는 것은 매우 귀찮은 일이기 때문에, 디렉토리를 입력하지 않고도 ADB 사용할 수 있는 환경변수 설정을 해보자.  
-1. `.bash_profile` 파일 위치 확인  
+- `.bash_profile` 파일 위치 확인  
 
 $ls .bash_profile
 {: .notice--primary}  
 
-2. 단축키 제공되는 `nano`이용해 파일 편집  
+- 단축키 제공되는 `nano`이용해 파일 편집  
 
 nano .bash_profile
 {: .notice--primary}  
 
-3. 환경변수 설정 코드 입력  
-- 아래 코드 위치와 동일하지 않다면, 본인 컴퓨터의 sdk 설치 위치를 적어주면 된다.
-- 입력 후 `ctrl + X` 누르고 `Y(yes)` 입력하면 저장된다.    
+- 환경변수 설정 코드 입력  
+  - 아래 코드 위치와 동일하지 않다면, 본인 컴퓨터의 sdk 설치 위치를 적어주면 된다.
+  - 입력 후 `ctrl + X` 누르고 `Y(yes)` 입력하면 저장된다.    
 
 export PATH=$PATH:/Users/사용자이름/Library/Android/sdk/platform-tools/
 {: .notice--primary}  
 ![adb](/assets/img/post/2021-02-14-1/img_2.png)  
 
-4. 제대로 설정 됐는지 확인  
-- 수정된 .bash_profile을 source 입력으로 다시 적용시켜 주고,  
-- adb version 입력 후 정확하게 버전이 나오면 완료  
+- 제대로 설정 됐는지 확인  
+  - 수정된 .bash_profile을 source 입력으로 다시 적용시켜 주고,  
+  - adb version 입력 후 정확하게 버전이 나오면 완료  
 
 source ~/.bash_profile
 adb version
