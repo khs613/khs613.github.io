@@ -1,6 +1,6 @@
 ---
 date: 2021-02-19
-title: "Git 영역과 파일 상태"
+title: "[Github] Git 영역과 파일 상태"
 categories: Github
 tags:
     - github
@@ -19,6 +19,7 @@ Git에서 어떻게 파일을 관리하고 동작하는지 공부해 보았다. 
 &nbsp;  
 
 #### 깃(Git) 세 가지 영역  
+---
 
 ##### Working Directory (작업 영역)
 - working tree (워킹트리) 라고도 한다.  
@@ -33,26 +34,32 @@ Git에서 어떻게 파일을 관리하고 동작하는지 공부해 보았다. 
 - 작업 디렉토리의 변경 이력들이 저장되어 있는 영역  
 
 ![github](/assets/img/post/2021-02-19-1/img_1.png)  
-<span style="color:gray">(사진 출처 : https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EA%B8%B0%EC%B4%88)</span>  
+<span style="color:gray">(사진 출처 : [https://git-scm.com/book/ko/v2/시작하기-Git-기초](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EA%B8%B0%EC%B4%88))</span>  
 
 #### 깃(Git) 파일 상태(status)  
+---
+git은 먼저 추적 관리 여부에 따라 크게 두 가지 상태로 나뉜다.  
 
-##### untracked  
-git이 관리하지 않는 상태  
+- Untracked : git이 추적 및 관리하지 않는 상태  
+작업 디렉토리에 존재하는 파일이라고 해서 모두 git이 관리하는 파일은 아니다. Untracked 파일은 수정되거나 삭제가 되어도 git에서 신경쓰지 않는다.  
 
-##### tracked  
-git이 관리해주는 상태  
-- unmodified  
-파일이 수정되지 않은 상태 (파일이 최근에 저장한 상태 그대로인)  
+- Tracked : git이 추적 및 관리해주는 상태  
+Tracked 상태인 파일은 최소한 한번은 `git add` 명령어를 통해 Staging area에 포함되거나, `commit`을 통해 git 디렉터리에 저장된 파일이다.  
+&nbsp;  
+그리고 Tracked 상태에서는 파일 변경 여부에 따른 세 가지 상태로 나뉜다.  
 
-- modified  
-파일이 수정된 상태 (git add를 실행하면 staged 상태로)  
+##### unmodified  
+- 파일이 수정되지 않은 상태 (파일이 최근에 저장한 상태 그대로인)  
 
-- staged  
-파일을 커밋으로 저장소에 기록 예정인 상태  
+##### modified  
+- 파일이 수정된 상태  
+- `git add` 명령어를 실행하면 staged 상태로 올린다.  
+
+##### staged  
+- `git commit` 명령어로 저장소에 기록 예정인 상태를 뜻한다.  
 
 ![github](/assets/img/post/2021-02-19-1/img_2.png)  
-<span style="color:gray">(사진 출처 : https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%A0%95%ED%95%98%EA%B3%A0-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0)</span>  
+<span style="color:gray">(사진 출처 : [https://git-scm.com/book/ko/v2/Git의-기초-수정하고-저장소에-저장하기](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%A0%95%ED%95%98%EA%B3%A0-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0))</span>  
 
 &nbsp;  
 &nbsp;  

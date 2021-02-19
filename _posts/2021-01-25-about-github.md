@@ -1,6 +1,6 @@
 ---
 date: 2021-01-25
-title: "깃허브(Github)에 대하여"
+title: "[Github] 깃허브(Github)에 대하여"
 categories: Github
 tags:
     - github

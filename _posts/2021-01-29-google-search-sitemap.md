@@ -1,6 +1,6 @@
 ---
 date: 2021-01-29
-title: "깃허브 블로그 구글 검색 노출시키기"
+title: "[Github] 깃허브 블로그 구글 검색 노출시키기"
 categories: Github
 tags:
     - github

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-25
-title: "깃허브 블로그 시작하기 (Github Blog)"
+title: "[Github] 깃허브 블로그 시작하기 (Github Blog)"
 categories: Github
 tags:
     - github

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-23
-title: "나의 첫 블로그"
+title: "[Blog] 나의 첫 블로그"
 categories: Blog
 tags:
     - blog
