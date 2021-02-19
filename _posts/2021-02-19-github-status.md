@@ -48,14 +48,14 @@ Tracked 상태인 파일은 최소한 한번은 `git add` 명령어를 통해 St
 &nbsp;  
 그리고 Tracked 상태에서는 파일 변경 여부에 따른 세 가지 상태로 나뉜다.  
 
-##### unmodified  
+##### Unmodified  
 - 파일이 수정되지 않은 상태 (파일이 최근에 저장한 상태 그대로인)  
 
-##### modified  
+##### Modified  
 - 파일이 수정된 상태  
 - `git add` 명령어를 실행하면 staged 상태로 올린다.  
 
-##### staged  
+##### Staged  
 - `git commit` 명령어로 저장소에 기록 예정인 상태를 뜻한다.  
 
 ![github](/assets/img/post/2021-02-19-1/img_2.png)  
