@@ -53,6 +53,7 @@ dependencies {
 
 ##### interface 정의  
 - RetrofitAPI 인터페이스 생성  
+
 ``` java
 package com.khs.sample_download_file.server;
 
@@ -66,16 +67,18 @@ public interface RetrofitAPI {
     @GET("downloads")	// 전체 URL 에서 URL을 제외한 End Point를 적어준다.
     Call<ResponseBody>getURL();
 }
-```  
+```
+{: .notice--primary}  
 
 - 사용 할 메서드를 정의한다.  
 - Server API에 맞게 메서드 정의해주는데, @Header/@Query/@Field 등의 정보를 알맞게 작성해주면 된다.  
 - 이번 예제에서는 아주 간단하게 서버 데이터만 받아오는 거라 헤더나 쿼리와 같은 인자는 따로 작성하지 않았다.  
 - End Point?  
-![retrofit](/assets/img/post/2021-02-23-1/img_1.png)  
+<img src = "/assets/img/post/2021-01-23-1/img_1.png" width="60%">  
 
 ##### Retrofit 인스턴스 생성  
 - RetrofitClient 클래스  
+
 ``` java
 package com.khs.sample_download_file.server;
 
@@ -91,8 +94,10 @@ public class RetrofitClient {
     public RetrofitAPI retrofitAPI = retrofit.create(RetrofitAPI.class);
 }
 ```
+{: .notice--primary}  
 
-- RetrofitClient 클래스 사용해서 작업 실행  
+- RetrofitClient 클래스 사용해서 통신 작업 실행  
+
 ``` java
 private void retrofitConnection() {
         RetrofitClient retrofitClient = new RetrofitClient();
@@ -117,11 +122,16 @@ private void retrofitConnection() {
         });
     }
 ```
+{: .notice--primary}  
+&nbsp;  
 
-- 해당 프로젝트 예제는 여기에
+정상적으로 통신이 완료되면 onResponse 콜백을 통해 서버의 데이터를 받을 수 있다. 예제 프로젝트에서는 json을 통해 데이터를 파싱하였는데, 지정한 DTO 클래스가 있다면 자동으로 파싱해 줄 것이다. 다음 예제 때 꼭 DTO 클래스로 테스트를 해봐야 겠다.  
+
+해당 프로젝트 예제는 여기에!  
 [sample-download-file](https://github.com/khs613/sample-download-file)  
 
 &nbsp;  
 &nbsp;  
 [참고]  
 <https://jaejong.tistory.com/33>  
+[https://ppizil.tistory.com/entry/Retrofit2-기본-사용법](https://ppizil.tistory.com/entry/Retrofit2-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95)
