@@ -48,7 +48,9 @@ dependencies {
 ##### 인터넷 권한 설정  
 - 매니페스트 파일에 인터넷 권한 추가  
 
+```
 <uses-permission android:name="android.permission.INTERNET"/>
+```
 {: .notice--primary}  
 
 ##### interface 정의  
