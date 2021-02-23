@@ -62,7 +62,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface RetrofitAPI {
-    String	MOCK_SERVER_URL	= "https://f3a07bac-0217-476a-af05-330554d63fda.mock.pstmn.io/"; // 통신 할 서버 baseUrl
+    String MOCK_SERVER_URL	= "https://f3a07bac-0217-476a-af05-330554d63fda.mock.pstmn.io/"; // 통신 할 서버 baseUrl
 
     @GET("downloads")	// 전체 URL 에서 URL을 제외한 End Point를 적어준다.
     Call<ResponseBody>getURL();
@@ -108,8 +108,9 @@ private void retrofitConnection() {
                 ResponseBody responseBody = response.body();
                 try {
                     String result = responseBody.string();
-                    if (jsonParseResult(result))
-					               // 정상적으로 통신 성공한 경우
+                    if (jsonParseResult(result)) {
+                      // 정상적으로 통신 성공한 경우
+                    }
                 } catch (IOException e) {
 
                 }
@@ -117,13 +118,12 @@ private void retrofitConnection() {
 
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
-				          // 통신 실패
+              // 통신 실패
             }
         });
     }
 ```
 {: .notice--primary}  
-&nbsp;  
 
 정상적으로 통신이 완료되면 onResponse 콜백을 통해 서버의 데이터를 받을 수 있다. 예제 프로젝트에서는 json을 통해 데이터를 파싱하였는데, 지정한 DTO 클래스가 있다면 자동으로 파싱해 줄 것이다. 다음 예제 때 꼭 DTO 클래스로 테스트를 해봐야 겠다.  
 
