@@ -77,6 +77,7 @@ public interface RetrofitAPI {
 - 이번 예제에서는 아주 간단하게 서버 데이터만 받아오는 거라 헤더나 쿼리와 같은 인자는 따로 작성하지 않았다.  
 - End Point?  
 <img src = "/assets/img/post/2021-02-23-1/img_1.png" width="60%">  
+
 ##### Retrofit 인스턴스 생성  
 - RetrofitClient 클래스  
 
