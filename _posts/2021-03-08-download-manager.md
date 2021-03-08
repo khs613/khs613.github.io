@@ -9,10 +9,11 @@ toc: true
 toc_sticky: true
 ---
 #### DownloadManager 사용하기  
-DownloadManager는 HTTP 다운로드를 처리하는 시스템 서비스이다. 앱은 URI를 저장될 위치와 특정 파일로 다운로드 하도록 요청할 수 있다. 또한, 앱에서 별도의 스레드를 생성할 필요 없이, 내부의 백그라운드 서비스에서 다운로드를 수행한다.  
+DownloadManager는 HTTP 다운로드를 처리하는 시스템 서비스이다.  
+앱은 URI를 저장될 위치와 특정 파일로 다운로드 하도록 요청할 수 있다. 또한, 앱에서 별도의 스레드를 생성할 필요 없이, 내부의 백그라운드 서비스에서 다운로드를 수행한다.  
 &nbsp;  
 DownloadManager는 notification을 통해 사용자에게 다운로드 상태를 보여주며, 실시간으로 다운로드 상태를 체크할 수 있다. 다운로드가 완료되면 브로드캐스트를 통해 완료되었음을 알려준다.  
-DownloadManager를 사용해서 파일을 다운로드 해보겠다.  
+다음은 DownloadManager를 사용해서 파일을 다운로드 하는 과정이다.  
 
 ##### 인터넷 권한 설정  
 - 매니페스트 파일에 인터넷 권한과 저장소 권한 추가  
@@ -81,14 +82,21 @@ private void URLDownloading(Uri url) {
 {: .notice--primary}  
 
 `Request` 설정 항목  
-- DownloadManager.Request: Request 객체를 생성하며 인자로 다운로드할 파일의 URI를 전달한다.  
-- setTitle: notification 제목  
-- setDescription: notification 설명  
-- setNotificationVisibility: VISIBILITY_VISIBLE로 설정되면 notification에 보여진다.  
-- setDestinationUri: 파일이 저장될 위치의 URI  
-- setRequiresCharging: true일 경우, 단말이 충전중일 때만 다운로드  
-- setAllowedOverMetered: true일 경우, 모바일네트워크가 연결되었을 때도 다운로드  
-- setAllowedOverRoaming: true일 경우, 로밍네트워크가 연결되었을 때도 다운로드  
+- DownloadManager.Request : Request 객체를 생성하며 인자로 다운로드할 파일의 URI를 전달한다.  
+
+- setTitle : notification 제목  
+
+- setDescription : notification 설명  
+
+- setNotificationVisibility : VISIBILITY_VISIBLE로 설정되면 notification에 보여진다.  
+
+- setDestinationUri : 파일이 저장될 위치의 URI  
+
+- setRequiresCharging : true일 경우, 단말이 충전중일 때만 다운로드  
+
+- setAllowedOverMetered : true일 경우, 모바일네트워크가 연결되었을 때도 다운로드  
+
+- setAllowedOverRoaming : true일 경우, 로밍네트워크가 연결되었을 때도 다운로드  
 
 
 ##### 다운로드 상태 조회  
@@ -141,7 +149,8 @@ private BroadcastReceiver downloadCompleteReceiver = new BroadcastReceiver() {
    - STATUS_RUNNING  
    - STATUS_PAUSED  
 
-<img src = "/assets/img/post/2021-03-08-1/img_1.jpg" width="80%">  
+![downloadmanager](/assets/img/post/2021-03-08-1/img_1.jpg)  
+&nbsp;
 이렇게 다운로드 할 때 사용자가 notification을 통해 다운로드 상황을 볼 수 있다. notification은 DownloadManager에서 구현된 부분이기 때문에 따로 noti를 구현할 필요 없다.  
 
 해당 프로젝트 Github 예제는 여기에 😊  
