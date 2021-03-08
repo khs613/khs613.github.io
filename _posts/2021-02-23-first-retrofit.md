@@ -1,5 +1,5 @@
 ---
-date: 2021-02-19
+date: 2021-02-23
 title: "[Android] Retrofit 사용하기 (GET 방식)"
 categories: Android
 tags:
@@ -129,7 +129,7 @@ private void retrofitConnection() {
 
 정상적으로 통신이 완료되면 onResponse 콜백을 통해 서버의 데이터를 받을 수 있다. 예제 프로젝트에서는 json을 통해 데이터를 파싱하였는데, 지정한 DTO 클래스가 있다면 자동으로 파싱해 줄 것이다. 다음 예제 때 꼭 DTO 클래스로 테스트를 해봐야 겠다.  
 
-해당 프로젝트 예제는 여기에!  
+해당 프로젝트 Github 예제는 여기에 😊  
 [sample-download-file](https://github.com/khs613/sample-download-file)  
 
 &nbsp;  
