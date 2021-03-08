@@ -149,7 +149,7 @@ private BroadcastReceiver downloadCompleteReceiver = new BroadcastReceiver() {
    - STATUS_RUNNING  
    - STATUS_PAUSED  
 
-<img src = "/assets/img/post/2021-03-08-1/img_1.jpg" width="50%">  
+<img src = "/assets/img/post/2021-03-08-1/img_1.png" width="50%">  
 &nbsp;  
 이렇게 다운로드 할 때 사용자가 notification을 통해 다운로드 상황을 볼 수 있다. notification은 DownloadManager에서 구현된 부분이기 때문에 따로 noti를 구현할 필요 없다.  
 
