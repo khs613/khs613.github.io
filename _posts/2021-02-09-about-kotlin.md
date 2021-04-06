@@ -38,3 +38,8 @@ toc_sticky: true
 
 &nbsp;  
 책에서 설명해주는 코틀린 소개는 이정도로 정리될 듯 싶다. 사실 더 많은 내용이 있지만 글만 보면 넘기고 싶어지는 성격 탓에 이정도로 마무리하겠다.  
+
+&nbsp;  
+&nbsp;  
+[참고]  
+[Kotlin in action](http://www.yes24.com/Product/Goods/55148593)  
