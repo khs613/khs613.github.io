@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 ---
 #### Kotlin 에 대하여
+
 코틀린에 대해 공부하기 위해 [Kotlin In Action] 서적을 구매하고, 코틀린 공식 사이트에서 비교하며 간략하게 정리해 보려고 한다.  
 &nbsp;  
 

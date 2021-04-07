@@ -8,7 +8,8 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### DownloadManager 사용하기  
+#### DownloadManager 사용하기
+
 DownloadManager는 HTTP 다운로드를 처리하는 시스템 서비스이다.  
 앱은 URI를 저장될 위치와 특정 파일로 다운로드 하도록 요청할 수 있다. 또한, 앱에서 별도의 스레드를 생성할 필요 없이, 내부의 백그라운드 서비스에서 다운로드를 수행한다.  
 &nbsp;  
@@ -20,7 +21,7 @@ DownloadManager는 notification을 통해 사용자에게 다운로드 상태를
 
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
 {: .notice--primary}  
 

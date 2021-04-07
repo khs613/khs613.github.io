@@ -7,7 +7,8 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### INSTALL_FAILED_TEST_ONLY 에러 해결하기  
+#### INSTALL_FAILED_TEST_ONLY 에러 해결하기
+
 APK를 adb로 설치 하려고 보니, 아래와 같은 에러가 발생하면서 앱을 설치 할 수 없었다.  
 &nbsp;  
 ![android](/assets/img/post/2021-02-04-1/img_1.png)  
