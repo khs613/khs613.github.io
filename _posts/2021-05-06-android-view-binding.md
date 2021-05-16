@@ -34,7 +34,7 @@ android {
 모든 바인딩 클래스는 해당 레이아웃 파일의 루트뷰에 대한 직접 참조를 제공한다.  
 - 액티비티에서 setContentView에 루트뷰 적용하기  
 
-```
+``` kotlin
 private lateinit var binding: ActivityMainBinding
 
 override fun onCreate(savedInstanceState: Bundle) {
