@@ -36,8 +36,8 @@ android {
 ```
 {: .notice--primary}  
 
-##### DataBinding 사용  
-1. xml 파일에 <layout> 태그 작성  
+#### DataBinding 사용  
+##### 1. xml 파일에 <layout> 태그 작성  
 - dataBinding을 사용하는 xml 파일의 루트 레이아웃을 `<layout>` 태그로 감싼다.  
 
 ``` xml
@@ -48,7 +48,7 @@ android {
 ```
 {: .notice--primary}  
 
-2. <data> 태그와 <variable> 태그 사용  
+##### 2. `<data>` 태그와 `<variable>` 태그 사용  
 - 레이아웃의 뷰에 연결할 변수가 있을 경우 사용된다.  
 - 연결할 data 객체를 만들어 주자.  
 
@@ -79,7 +79,7 @@ data class User (
 ```
 {: .notice--primary}  
 
-3. 바인딩 객체 만들기  
+##### 3. 바인딩 객체 만들기  
 - 레이아웃 파일에 DataBinding을 적용하면 자동으로 바인딩 클래스가 생성 된다.  
 - 뷰바인딩 포스팅에도 언급한 카멜 표기법으로 변환된 이름으로 생성  
   - activity_main.xml 파일의 바인딩 클래스 이름은 ActivityMainBinding 으로 변환!  
