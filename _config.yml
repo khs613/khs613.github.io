@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # (테마 색 설정) "air", "aqua", "contr
 
 # Site Settings   x
 locale                   : "ko-KR"
-title                    : "Dev_HYESOO"
+title                    : "HYESOO Dev Daily"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyesoo kim"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "KHSO.O"
   avatar           : "/assets/img/res/bob-minions.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "놀면서 공부하는 안드로이드 개발자 입니다 😛"
+  bio              : "놀면서 공부하는 안드로이드 개발자 입니다 :)"
   location         : "Republic of Korea"
   email            : "kimhyesoo123@naver.com"
   links:
