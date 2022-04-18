@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "khs613/khs613.github.com"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/res/bob-minions.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "개발자의 일기" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "놀고 먹는 개발자의 일기" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "KHSO.O"
   avatar           : "/assets/img/res/bob-minions.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부하려고 노력하는 개발자입니다."
+  bio              : "놀면서 공부하는 안드로이드 개발자 입니다 😛"
   location         : "Republic of Korea"
   email            : "kimhyesoo123@naver.com"
   links:
