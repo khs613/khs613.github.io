@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;      // khs - 포스터 타이틀 항디퍼링크 밑줄 제거 
+
   &:focus {
     @extend %tab-focus;
   }
