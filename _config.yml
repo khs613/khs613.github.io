@@ -97,7 +97,7 @@ author:
   avatar           : "/assets/img/res/bob-minions.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "놀면서 공부하는 안드로이드 개발자˙ᵕ˙"
   location         : "Republic of Korea"
-  email            : "kimhyesoo123@naver.com"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
