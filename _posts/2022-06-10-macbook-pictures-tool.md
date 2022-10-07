@@ -15,15 +15,15 @@ toc_sticky: true
 ##### 단축키 command + k 로 빠르게 사진 자르기    
 1. 자를 사진을 선택한다.  
 &nbsp;  
-<img src = "/assets/img/post/2022-06-10-1/img_1.png" width="100%">  
+<img src = "/assets/img/post/2022-06-10-1/img_1.png" width="80%">  
 &nbsp;  
 2. 자르고 싶은 영역을 선택한다.  
 &nbsp;  
-<img src = "/assets/img/post/2022-06-10-1/img_2.png" width="100%">  
+<img src = "/assets/img/post/2022-06-10-1/img_2.png" width="80%">  
 &nbsp;  
 3. `command + k` 단축키 눌러준다.  
 &nbsp;  
-<img src = "/assets/img/post/2022-06-10-1/img_3.png" width="100%">  
+<img src = "/assets/img/post/2022-06-10-1/img_3.png" width="80%">  
 &nbsp;  
 
 끝 !
