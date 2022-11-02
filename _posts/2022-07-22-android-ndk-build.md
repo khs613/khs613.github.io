@@ -23,7 +23,7 @@ toc_sticky: true
 
 기존 프로젝트 jni 폴더에 Android.mk 파일이 있었기 때문에 NDK-Build 를 통해 빌드를 진행했다.  
 
-##### No toolchains found in the NDK toolchains folder for ABI with prefix: arm-linux-androideabi  
+##### 이슈1 - No toolchains found in the NDK toolchains folder for ABI with prefix: arm-linux-androideabi  
 - 안드로이드에서 사용되는 NDK 버전이 올라가면서 MIPS형 CPU에 대한 지원이 중단되었다는 에러라고 한다.  
 - gradle 버전이 낮으면 안드로이드 스튜디오가 MIPS에 대한 정보를 찾으려다가 위와 같은 에러 발생  
 
@@ -34,7 +34,7 @@ toc_sticky: true
 - ndk 버전 중 맞는 버전 apply 시켜주기 (ndk 21.4.7075529 버전으로 맞춤)  
 - 나의 경우 ndk 버전을 다운 그레이드 시켜주니 해당 에러는 없어졌다! 하지만 다음과 같은 에러가 발생한다🤯  
 
-##### ERROR: Unknown host CPU architecture: arm64  
+##### 이슈2 - ERROR: Unknown host CPU architecture: arm64  
 - 구글링 해보니 맥북 프로 M1에서 발생하는 이슈라고 한다.  
 - 그렇다면 windows OS 에서는 정상 동작할 수 있다는 건데, 내 컴퓨터가 맥북 M1이기 때문에 해결 할 수 밖에 없다.  
 
@@ -42,19 +42,23 @@ toc_sticky: true
 - ndk 폴더로 이동하여 `ndk-build` 편집  
  - 맥북 ndk 경로 : /.../Library/Android/sdk/ndk 참고!  
 - AS-IS  
+
 ```
 #!/bin/sh
 DIR="$(cd "$(dirname "$0")" && pwd)"
 $DIR/build/ndk-build "$@"
 ```
 {: .notice--primary}  
-- TO-BE
+
+- TO-BE  
+
 ```
 #!/bin/sh
 DIR="$(cd "$(dirname "$0")" && pwd)"
 arch -x86_64 /bin/bash $DIR/build/ndk-build "$@"
 ```
 {: .notice--primary}  
+
 &nbsp;  
 이렇게 하고서 ndk 빌드 했더니 드디어 성공!  
 빌드하려는 프로젝트의 경우 32비트용, 64비트용 모두 빌드가 필요해서 발생한 이슈가 아닐까 싶다.  
