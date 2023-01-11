@@ -40,9 +40,9 @@ android {
 
 - flavorDimensions : 더 많은 버전의 조합을 사용하고자 할 때 해당 속성을 사용한다. buildType, productFlavors 과 더 많은 조합의 버전을 생성할 수 있다.  
 - applicationIdSuffix : applicationId 뒤에 붙게 된다.  
- - 패키지명이 'com.example.flavor' 라면 여기서 +'.free' 가 붙으면서 최종적으로 'com.example.flavor.free' 가 된다.  
+패키지명이 'com.example.flavor' 라면 여기서 +'.free' 가 붙으면서 최종적으로 'com.example.flavor.free' 가 된다.  
 - buildConfigField : BuildConfig.#### 로 사용  
- - BuildConfig.ISFREE의 값을 true/false 로 설정한다는 내용이다.  
+BuildConfig.ISFREE의 값을 true/false 로 설정한다는 내용이다.  
 
 ![Flavor](/assets/img/post/2022-12-26-1/img_1.png)  
 
