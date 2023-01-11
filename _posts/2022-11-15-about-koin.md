@@ -4,6 +4,8 @@ title: "[Android] Koin 사용하기"
 categories: Android
 tags:
     - android
+    - koin
+    - kotlin
 toc: true
 toc_sticky: true
 ---
