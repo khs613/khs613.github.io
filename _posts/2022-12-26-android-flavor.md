@@ -7,14 +7,14 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### Android Flavor 사용하기
+## 👀 Android Flavor 사용하기 💫
 
 한개의 앱에서 여러 버전의 앱을 만들고자 할 때, 안드로이드 Flavor를 사용하면 앱을 구분할 수 있다. 같은 기능에 무료/유료 버전, SDK 버전 등에 따라 앱을 구분하고 싶을 때 사용하는 Flavor를 알아보자.  
 &nbsp;  
 
 ---
 
-##### build.gradle 구성  
+### 🏄‍♀️ build.gradle 구성  
 예시로 무료 버전과 유료 버전으로 구분할 때 Flavor 구성을 해보겠다.  
 build.gradle(app) 파일에서 `productFlavors` 블록에 원하는 버전을 블록으로 만들어서 각각 설정을 해준다. 무료 버전인 free와 유료 버전인 paid로 추가했다.  
 

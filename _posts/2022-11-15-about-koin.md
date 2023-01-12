@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### Koin 사용하기
+## 👩‍💻 Koin 사용하기 🍕
 
 공부해야지 백만번은 마음 먹은 것 같은데, 이제서야 들여다보는 DI (Dependency Injection)  
 Koin은 코틀린 개발자를 위해 개발된 실용적이고 가벼운 의존성 주입 프레임워크다. 의존성 주입 프레임워크는 대표적으로 `Dagger`, `Hilt`, `Koin` 등이 있는데, `Koin` 은 가장 낮은 러닝 커브를 자랑하여 의존성 주입에 입문하기 좋은 프레임워크!  
@@ -20,21 +20,21 @@ Koin은 코틀린 개발자를 위해 개발된 실용적이고 가벼운 의존
 
 ---
 
-##### DI 사용시 이점  
+### 🌊 DI 사용시 이점  
 - 코드의 가독성과 재사용성을 높여준다.  
 - 단위 테스트 용이  
 - 객체 간의 의존(종속) 관계를 직접 설정할 수 있음  
 - 객체 간의 결합도를 낮춰 줌  
 &nbsp;  
 
-##### Koin 사용 시 알아둬야 할 키워드  
+### 🌊 Koin 사용 시 알아둬야 할 키워드  
 - module : 주입 받고자 하는 객체를 모듈로 만들어 선언    
 - single : 앱이 실행되는 동안 계속 유지되는 싱글톤 객체를 생성  
 - factory : 요청할 때마다 매번 새로운 객체 생성  
 - get() : 컴포넌트 내에서 알맞은 의존성을 주입 받음  
 &nbsp;  
 
-##### dependency 추가  
+### 🌊 dependency 추가  
 
 ```
 dependencies {
@@ -44,7 +44,7 @@ dependencies {
 {: .notice--primary}  
 &nbsp;  
 
-##### 모듈 선언  
+### 🌊 모듈 선언  
 1. 샘플 클래스 생성  
 
 ``` kotlin
@@ -86,7 +86,7 @@ val viewModelModule = module {
 - `viewModel` ViewModel의 경우는 `viewModel` 키워드로 선언  
 &nbsp;  
 
-##### 모듈 등록  
+### 🌊 모듈 등록  
 
 ``` kotlin
 class InquiryApplication : Application() {
@@ -121,7 +121,7 @@ class InquiryApplication : Application() {
 
 &nbsp;  
 
-##### 의존성 주입  
+### 🌊 의존성 주입  
 - `inject()` 키워드를 사용하여 의존성을 주입  
 - ViewModel의 경우 `viewModel()` 사용  
 - 사용하고자 하는 Activity 클래스에서 주입하면 된다.  
