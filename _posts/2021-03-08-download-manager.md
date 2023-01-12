@@ -8,15 +8,19 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### DownloadManager 사용하기
+## 🌠 DownloadManager 사용하기 🌿
 
 DownloadManager는 HTTP 다운로드를 처리하는 시스템 서비스이다.  
 앱은 URI를 저장될 위치와 특정 파일로 다운로드 하도록 요청할 수 있다. 또한, 앱에서 별도의 스레드를 생성할 필요 없이, 내부의 백그라운드 서비스에서 다운로드를 수행한다.  
 &nbsp;  
+
 DownloadManager는 notification을 통해 사용자에게 다운로드 상태를 보여주며, 실시간으로 다운로드 상태를 체크할 수 있다. 다운로드가 완료되면 브로드캐스트를 통해 완료되었음을 알려준다.  
 다음은 DownloadManager를 사용해서 파일을 다운로드 하는 과정이다.  
+&nbsp;  
 
-##### 인터넷 권한 설정  
+---
+
+### 🦋 인터넷 권한 설정  
 - 매니페스트 파일에 인터넷 권한과 저장소 권한 추가  
 
 ```
@@ -25,7 +29,9 @@ DownloadManager는 notification을 통해 사용자에게 다운로드 상태를
 ```
 {: .notice--primary}  
 
-##### 기본 설정  
+&nbsp;  
+
+### 🦋 기본 설정  
 - 다운받은 파일이 저장될 위치 설정  
 
 ``` java
@@ -53,7 +59,9 @@ public void onPause(){
 ```
 {: .notice--primary}  
 
-##### 다운로드 요청  
+&nbsp;  
+
+### 🦋 다운로드 요청  
 `DownloadManager.Request`을 설정하여 DownloadManager Queue에 등록하게 되면 큐에 들어간 순서대로 다운로드가 처리된다.  
 `DownloadManager` 객체 생성하여 다운로드 대기열에 URI 객체를 넣는다.  
 
@@ -99,8 +107,9 @@ private void URLDownloading(Uri url) {
 
 - setAllowedOverRoaming : true일 경우, 로밍네트워크가 연결되었을 때도 다운로드  
 
+&nbsp;  
 
-##### 다운로드 상태 조회  
+### 🦋 다운로드 상태 조회  
 `DownloadManager.Query` 객체를 생성하고 `DownloadManager.query()`로 쿼리를 한다. cursor가 리턴되며 특정 칼럼을 조회하여 다운로드 상태를 가져온다.  
 
 ``` java
@@ -154,6 +163,7 @@ private BroadcastReceiver downloadCompleteReceiver = new BroadcastReceiver() {
 &nbsp;  
 이렇게 다운로드 할 때 사용자가 notification을 통해 다운로드 상황을 볼 수 있다. notification은 DownloadManager에서 구현된 부분이기 때문에 따로 noti를 구현할 필요 없다.  
 
+&nbsp;  
 해당 프로젝트 Github 예제는 여기에 😊  
 [sample-download-file](https://github.com/khs613/sample-download-file)  
 

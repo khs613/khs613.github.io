@@ -7,11 +7,14 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### ViewBinding
+## 🍉 ViewBinding 📌
 
 뷰 바인딩(ViewBinding)을 사용하면 뷰와 상호작용하는 코드를 쉽게 작성할 수 있다. 뷰 바인딩 속성이 활성화되면 각 XML 레이아웃 파일에 대한 바인딩 클래스가 자동 생성된다. `findViewById` 를 대체 한다.  
+&nbsp;  
 
-##### ViewBinding 설정  
+---
+
+### 🎀 ViewBinding 설정  
 - 모듈 활성화
 build.gradle 파일에 다음과 같이 추가하자.  
 
@@ -25,7 +28,9 @@ android {
 ```
 {: .notice--primary}  
 
-##### ViewBinding 사용  
+&nbsp;  
+
+### 🎀 ViewBinding 사용  
 - 모듈에서 뷰 바인딩을 활성화 해줬다면, 각 XML 파일에 대해 바인딩 클래스가 생성된다.  
 - 바인딩 클래스의 이름은 XML 파일의 이름을 카멜 표기법으로 변환되고 "Binding"이 추가된다.  
   - activity_main.xml 파일의 바인딩 클래스 이름은
@@ -45,13 +50,16 @@ override fun onCreate(savedInstanceState: Bundle) {
 ```
 {: .notice--primary}  
 
-##### findViewById 와 차이점  
+&nbsp;  
+
+### 🎀 findViewById 와 차이점  
 - Null safety  
 뷰 직접 참조이므로 잘못된 ID로 Null pointer Exception 발생 위험 없다.  
 - Type safety  
 뷰 타입이 일치해서 Class Cast Exception 발생 안한다.  
+&nbsp;  
 
-##### DataBinding 과 차이점  
+### 🎀 DataBinding 과 차이점  
 - 데이터 바인딩은 ``<layout>`` 태그를 사용한 레이아웃만 처리  
 - 뷰 바인딩은 레이아웃 변수/표현식을 지원하지 않으므로 XML의 데이터와 레이아웃 바인딩 못한다.  
 - 데이터 바인딩은 클래스를 생성할 때 루트뷰에 tag 삽입  

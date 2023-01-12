@@ -7,14 +7,18 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### Live Template 사용하기
+## 🔔 Live Template 사용하기 🕶
 
 회사에서 프로젝트 협업을 하다보면 내가 만든 클래스나 파일에 대해 코멘트를 남겨야 할 때가 있다. 그때 함께 남겨야 할 정보를 자동으로 입력되는 기능을 찾다가 책임님께서 Live Template의 기능을 알려주셨는데, 굉장히 유용한 기능이다.  
+&nbsp;  
 
-##### Live Template  
+---
+
+### 💊 Live Template  
 코드 자동완성 기능이라고 생각하면 된다. 코드 작성 시 약어만 쳐도 자동완성을 해주는데, 사용자가 직접 추가/수정 할 수 있다. 자주 쓰는 코드나 코멘트를 추가해두면 저장한 단축키 만으로 자동완성 되므로 생산성을 향상 시켜준다.  
+&nbsp;  
 
-##### Android Studio에서 라이브 템플릿 추가하기  
+### 💊 Android Studio에서 라이브 템플릿 추가하기  
 1. Android Studio > preferences 이동  
 
 2. Live Templates > 라이브 템플릿을 추가할 그룹 선택  
@@ -40,13 +44,12 @@ toc_sticky: true
 &nbsp;  
 ![livetemplate](/assets/img/post/2021-04-05-1/img_3.PNG)  
 
-
-
 6. live template 사용  
 - 키워드를 입력하면 추가한 템플릿이 자동완성 후보로 보여진다.  
 - 또는 `ctrl + j` 단축키 입력 후 라이브 템플릿 목록에서 선택 후 사용하면 된다.  
 &nbsp;  
 ![livetemplate](/assets/img/post/2021-04-05-1/img_4.PNG)  
+&nbsp;  
 
 코멘트 작성 시 사용했지만 반복되는 코드 작성에도 유용하게 사용 될 것 같다.  
 
