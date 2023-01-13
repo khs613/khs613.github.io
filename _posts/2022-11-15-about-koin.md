@@ -45,7 +45,7 @@ dependencies {
 &nbsp;  
 
 ### 🌊 모듈 선언  
-1. 샘플 클래스 생성  
+##### 1. 샘플 클래스 생성  
 
 ``` kotlin
 class SampleRepository() {
@@ -65,7 +65,9 @@ class SampleViewModel : ViewModel() {
 ```
 {: .notice--primary}  
 
-2. 모듈로 선언하여 변수에 저장  
+&nbsp;  
+
+##### 2. 모듈로 선언하여 변수에 저장  
 
 ``` kotlin
 val appModule = module {

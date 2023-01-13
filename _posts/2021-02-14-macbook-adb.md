@@ -8,21 +8,25 @@ tags:
 toc: true
 toc_sticky: true
 ---
-#### 맥북에서 ADB 사용하는 방법
+## 🍄 맥북에서 ADB 사용하는 방법 🏓
 
 맥에서 안드로이드 개발을 하면서 ADB를 사용하려고 하는데, 어떻게 사용해야 할지 알아보자.  
 &nbsp;  
 
-##### ADB(Android Debug Bridge)  
-Android 디버그 브리지([adb](https://developer.android.com/studio/command-line/adb?hl=ko))는 기기와 통신할 수 있는 다목적 명령줄 도구이다. adb 명령어는 앱의 설치 및 디버깅과 같은 다양한 기기 작업에 도움이 되며, 기기에서 다양한 명령어를 실행하는 데 사용할 수 있는 Unix 셸에 관한 액세스를 제공한다.  
+---
 
-##### Android SDK 설치  
+### 👩‍🌾 ADB(Android Debug Bridge)  
+Android 디버그 브리지([adb](https://developer.android.com/studio/command-line/adb?hl=ko))는 기기와 통신할 수 있는 다목적 명령줄 도구이다. adb 명령어는 앱의 설치 및 디버깅과 같은 다양한 기기 작업에 도움이 되며, 기기에서 다양한 명령어를 실행하는 데 사용할 수 있는 Unix 셸에 관한 액세스를 제공한다.  
+&nbsp;  
+
+### 👩‍🌾 Android SDK 설치  
 adb는 Android SDK 플랫폼 도구 패키지에 포함되어 있다. 이 패키지는 SDK Manager를 사용하여 다운로드할 수 있고, 독립형 Android SDK 플랫폼 도구 패키지를 따로 다운받을 수 있다.  
 - [SDK 다운로드 링크](https://developer.android.com/studio/releases/platform-tools?hl=ko)  
 ![adb](/assets/img/post/2021-02-14-1/img_1.png)  
 - android_sdk/platform-tools/에 설치된다.  
+&nbsp;  
 
-##### ADB 환경변수 설정  
+### 👩‍🌾 ADB 환경변수 설정  
 매번 SDK가 설치되어 있는 경로로 찾아가서 ADB를 사용하는 것은 매우 귀찮은 일이기 때문에, 디렉토리를 입력하지 않고도 ADB 사용할 수 있는 환경변수 설정을 해보자.  
 - `.bash_profile` 파일 위치 확인  
 

@@ -48,3 +48,7 @@ BuildConfig.ISFREE의 값을 true/false 로 설정한다는 내용이다.
 ![Flavor](/assets/img/post/2022-12-26-1/img_1.png)  
 
 build.gralde 구성이 끝나고 Sync Now 를 해주면 사진과 같이 **Build Variants**에 4개가 생긴것을 확인 할 수 있다. free/paid 버전으로 각각 Debug, Release가 생겼고 빌드 시 선택해서 빌드하면 된다.  
+
+
+&nbsp;  
+&nbsp;  
