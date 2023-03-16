@@ -160,6 +160,10 @@ abstract class TodoDatabase : RoomDatabase() {
 
 ### 📍 예제 화면  
 <p align="left"><img src = "/assets/img/post/2023-01-15-1/img_2.png" width="50%"></p>  
+&nbsp;  
+
+해당 프로젝트 Github 예제는 여기에 😊  
+[sample-romm-kotlin](https://github.com/khs613/sample-room-kotlin)  
 
 &nbsp;  
 &nbsp;  
