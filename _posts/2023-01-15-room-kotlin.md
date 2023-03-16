@@ -163,7 +163,7 @@ abstract class TodoDatabase : RoomDatabase() {
 &nbsp;  
 
 해당 프로젝트 Github 예제는 여기에 😊  
-[sample-romm-kotlin](https://github.com/khs613/sample-room-kotlin)  
+[sample-room-kotlin](https://github.com/khs613/sample-room-kotlin)  
 
 &nbsp;  
 &nbsp;  
