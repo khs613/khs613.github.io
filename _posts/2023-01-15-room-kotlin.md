@@ -159,7 +159,7 @@ abstract class TodoDatabase : RoomDatabase() {
 &nbsp;  
 
 ### 📍 예제 화면  
-<img src = "/assets/img/post/2023-01-15-1/img_1.png" width="50%">  
+<p align="left"><img src = "/assets/img/post/2023-01-15-1/img_2.png" width="50%">  
 
 &nbsp;  
 &nbsp;  
