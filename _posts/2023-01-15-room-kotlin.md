@@ -56,7 +56,7 @@ plugins {
 - **Database** : 데이터베이스를 생성하고 데이터와 기본 연결을 위한 추상 클래스  
 - **Entity** : 데이터베이스 테이블  
 - **DAO(Data Access Object)** : 앱이 데이터베이스의 데이터에 접근할 수 있는 메소드를 정의해놓은 인터페이스  
-<p align="center"><img src = "/assets/img/post/2023-01-15-1/img_1.png" width="70%">  
+<p align="center"><img src = "/assets/img/post/2023-01-15-1/img_1.png" width="70%"></p>  
 &nbsp;  
 
 ### 📍 Entity 정의  
@@ -159,7 +159,7 @@ abstract class TodoDatabase : RoomDatabase() {
 &nbsp;  
 
 ### 📍 예제 화면  
-<p align="left"><img src = "/assets/img/post/2023-01-15-1/img_2.png" width="50%">  
+<p align="left"><img src = "/assets/img/post/2023-01-15-1/img_2.png" width="50%"></p>  
 
 &nbsp;  
 &nbsp;  
