@@ -21,6 +21,8 @@ toc_sticky: true
 - 북마크 이동 : Ctrl + Num(0~9)  
 - 모든 북마크 보기 : Cmd + F3  
 &nbsp;  
+&nbsp;  
 
-![bookmark](/assets/img/post/2023-02-16-1/img_1.png)  
-![bookmark](/assets/img/post/2023-02-16-1/img_2.png)  
+<img src = "/assets/img/post/2023-02-16-1/img_1.png" width="80%">  
+&nbsp;  
+<img src = "/assets/img/post/2023-02-16-1/img_2.png" width="80%">  
